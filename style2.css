@@ -1,0 +1,30 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    text-align:center;
+    padding_top:40px;
+}
+h1{
+    color:#333;
+    margin_bottom:30px;
+}
+#cantainer{
+    width: 300px;
+    margin: auto;
+    padding :20px;
+    border:2px dashed #999;
+    border-radius:10px;
+    background-color: white;
+}
+#container p{
+    babackground-color: lightblue;
+    color:#000;
+    text-align:center;
+    padding :15px;
+    font-size: 18px;
+    border-radius:8px;
+    transition:0.3s;
+}
+#container p:hover{
+    background-color: deepskyblue;
+    transform:scale(1.05);
